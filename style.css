@@ -1,13 +1,13 @@
 /*CSS reset settings here*/
 *{
- margin: 20px;
- padding: 20px;
+ margin: 10px;
+ padding: 10px;
 }
 #wrapper{
  width: 950px;
  background-color: silver;
  margin: 0px;
- padding: 0px;
+ padding: 10px;
 }
 #header{
  height: 150px;
@@ -17,21 +17,23 @@
  height: 300px;
  width: 200px;
  background-color: blue;
- display: block-inline;
+ display: inline-block;
 }
 #main_content{
  height: 400px;
- width: 700px;
+ width: 660px;;
  background-color: red;
- display: block-inline;
+ display: inline-block;
+ vertical-align: top;
 }
 .subcontents{
- height: 200px;
- width: 210px;
+ height: 160px;
+ width: 175px;
  background-color: yellow;
+ display: inline-block;
 }
 #advertisement{
- height: 120px;
- width: 660px;
+ height: 110px;
+ width: 615px;
  background-color: purple;
 }
