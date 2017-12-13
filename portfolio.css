@@ -44,6 +44,7 @@
   width: 450px;
   height: 303px;
   vertical-align: top;
+  background: linear-gradient(to right, #FEFEFE, #dbccda)
 }
 
 .sub-content-2 {
@@ -91,6 +92,7 @@
   margin-top: 0px;
   border-top: 0px;
   padding-top: 0px;
+  height: 990px;
 }
 
 p {
@@ -117,4 +119,33 @@ p {
 
 .button-p {
   text-align: center;
+}
+
+.footer-text {
+
+}
+
+.footer-text-social {
+  font-style: italic;
+  display: inline-block;
+}
+
+.footer-image-social {
+  height: 20px;
+  width: 20px;
+}
+
+.footer {
+  /*margin: auto;
+  width: 50%;*/
+  text-align: center;
+  font-family: arial;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+a {
+  color: black;
 }
