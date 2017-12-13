@@ -5,7 +5,7 @@
 
 #header {
   background-color: #F0E9EF;
-  font-family: sans-serif;
+  font-family: arial;
   padding: 5px 10px 0px 10px;
   margin-bottom: 0px;
   border-bottom: 0px;
@@ -37,6 +37,7 @@
   display: inline-block;
   margin: 25px 0px 0px 20px;
   background-color: #F1F4F8;
+  vertical-align: top;
 }
 
 #about {
@@ -47,6 +48,11 @@
 
 .sub-content-2 {
   width: 292px;
+  height: 613px;
+}
+
+.technologies {
+  vertical-align: bottom;
 }
 
 .sub-content-image {
@@ -58,12 +64,19 @@
   background: linear-gradient(#C0C0C0, #282A2C);
   color: #FFFFFF;
   padding: 10px 0px 10px 10px;
+  font-family: arial;
 }
 
 .text {
-  padding-left: 7px;
+  padding-left: 10px;
   font-family: serif;
-  padding-right: 7px;
+  padding-right: 10px;
+  font-family: arial;
+  background: linear-gradient(to right, #FEFEFE, #dbccda)
+}
+
+.text-2 {
+  height: 180px;
 }
 
 #lady-image {
@@ -83,4 +96,25 @@
 p {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.technology {
+  width: 43px;
+  padding: 6px;
+}
+
+.button {
+  background-color: #407c61;
+  color: white;
+  padding: 3px 5px;
+  border: black;
+  font-size: 15px;
+  box-shadow: 50px;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 3px 3px #8c8c8c;
+}
+
+.button-p {
+  text-align: center;
 }
