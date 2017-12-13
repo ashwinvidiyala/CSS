@@ -1,0 +1,39 @@
+#header {
+  background-color: #F0E9EF;
+  font-family: sans-serif;
+  padding: 5px 10px 5px 10px;
+}
+
+#header-1 {
+  display: inline-block;
+  width: 460px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+#header-2 {
+  display: inline-block;
+  width: 465px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+#container {
+  width: 970px;
+}
+
+.sub-content {
+
+}
+
+#lady-image {
+
+}
+
+#main-content {
+  background-color: #49353D;
+}
