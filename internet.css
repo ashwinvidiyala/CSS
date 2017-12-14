@@ -212,6 +212,7 @@
 
 #content-bottom {
   border-style: solid;
+  border-bottom-style: none;
   border-color: #3885e0;
   border-width: 4px;
 
