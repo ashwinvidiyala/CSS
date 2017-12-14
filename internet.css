@@ -125,8 +125,9 @@
   font-size: 15px;
 }
 
-#main-content ul {
+#main-content li {
   font-size: 15px;
+  margin-bottom: 5px;
 }
 
 #content-top {
@@ -201,4 +202,44 @@
 
 .bold {
   font-weight: bold;
+}
+
+#content-middle img {
+  width: 260px;
+  display: inline-block;
+  margin-left: 207px;
+}
+
+#content-bottom {
+  border-style: solid;
+  border-color: #3885e0;
+  border-width: 4px;
+
+}
+
+#content-bottom h3 {
+  color: #2664B4;
+  margin-bottom: 0px;
+}
+
+#content-bottom img {
+  display: inline-block;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#content-bottom-bottom {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  margin-left: 10px;
+}
+
+#content-bottom-bottom p {
+  font-size: 15px;
+}
+
+.italic {
+  font-style: italic;
 }
